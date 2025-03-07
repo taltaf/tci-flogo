@@ -92,19 +92,19 @@ After clicking on run test button, a test result file will generate under test-r
 
 1. Assert on Error
 
-![Sample Response](../import-screenshots/VSCode/assertonerroroutput.png)
+![Sample Response](../import-screenshots/VSCode/assertonerrorresult.png)
 
 2. Assert On Output
 
-![Sample Response](../import-screenshots/VSCode/assertonerroroutput.png)
+![Sample Response](../import-screenshots/VSCode/assertonoutputresult.png)
 
 3. Mock Error
 
-![Sample Response](../import-screenshots/VSCode/mockerror.png)
+![Sample Response](../import-screenshots/VSCode/mockerrorresult.png)
 
 4. Mock Outputs
 
-![Sample Response](../import-screenshots/VSCode/mockoutput.png)
+![Sample Response](../import-screenshots/VSCode/mockoutputresult.png)
 
 
 ## Notes & Conclusion
