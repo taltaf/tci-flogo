@@ -23,12 +23,12 @@ Flow output is the output generated for the given flow for the given set of inpu
 2. Assert on Error
 You can add assertions to the flow output to verify that the flow produces the correct data by comparing the actual output against predefined assertions. Assert on Error adds an assertion for the flow designed with error. To make the assetion pass without using error handler we can add flow output assertion to the flow output. 
 
-![Assert on Error](../../../import-screenshots/VSCode/assertonerror.png)
+![Assert on Error](../import-screenshots/VSCode/assertonerror.png)
 
 3. Assert On Output
 To compare the actual vs expected output, you can add multiple assertions on an activity, flow output, or error handler. We can use functions while adding assertions. This option is only visible for the activities having output.
 
-![Assert on Output](../../../import-screenshots/VSCode/assertonoutput.png)
+![Assert on Output](../import-screenshots/VSCode/assertonoutput.png)
 
 ## Other Modes
 
@@ -49,12 +49,12 @@ In unit testing, you can either use assertions or mock data to test the activiti
 1. Mock Error
 Use mock exceptions for an activity to find out whether the exception handling is being done correctly or not. This option is only visible for the activities having output. Add mock error to pass dummy error message to make the assertion pass.
 
-![Mock Error](../../../import-screenshots/VSCode/mockerror.png)
+![Mock Error](../import-screenshots/VSCode/mockerror.png)
 
 2. Mock Outputs
 You can use the mock data for the activities that have an output. Data mocks are fake data that is used to simulate real data in a controlled environment. Add mock ouput to pass dummy outputs to make the assertion pass.
 
-![Mock Output](../../../import-screenshots/VSCode/mockoutput.png)
+![Mock Output](../import-screenshots/VSCode/mockoutput.png)
 
 ## Defining Flow Input
 For a particular activity that has a flow input configured in the actual process, you must assign the flow input parameters before you run a test case. You can add separate test cases for each flow input.
@@ -73,7 +73,7 @@ If the invokde rest service is down or inaccessabla and we want to mock the data
 
 2. Put these files in VSCode workspace
 
-![Unit Testing files in VSCode workspace](../../../import-screenshots/VSCode/import.png)
+![Unit Testing files in VSCode workspace](../import-screenshots/VSCode/import.png)
 
 
 
@@ -81,11 +81,11 @@ If the invokde rest service is down or inaccessabla and we want to mock the data
 
 1. Click on the UnitTestingSample.flogotest
 
-![.flogotest file](../../../import-screenshots/VSCode/Testing.png)
+![.flogotest file](../import-screenshots/VSCode/Testing.png)
 
 2. Click on the testing icon in VSCode on the left side. Expand the app name and the test suite and click on the run test button to see the test results.
 
-![Testing icon](../../../import-screenshots/VSCode/Testing1.png)
+![Testing icon](../import-screenshots/VSCode/Testing1.png)
 
 
 
@@ -96,16 +96,20 @@ After clicking on run test button a test result file will generate under test-re
 
 1. Assert on Error
 
-![Sample Response](../../../import-screenshots/VSCode/assertonerroroutput)
+![Sample Response](../import-screenshots/VSCode/assertonerroroutput)
 
 2. Assert On Output
 
-![Sample Response](../../../import-screenshots/VSCode/assertonerroroutput)
+![Sample Response](../import-screenshots/VSCode/assertonerroroutput)
 
 3. Mock Error
 
-![Sample Response](../../../import-screenshots/VSCode/mockerror)
+![Sample Response](../import-screenshots/VSCode/mockerror)
 
 4. Mock Outputs
 
-![Sample Response](../../../../import-screenshots/VSCode/mockoutput)
+![Sample Response](../import-screenshots/VSCode/mockoutput)
+
+
+## Notes & Conclusion
+
