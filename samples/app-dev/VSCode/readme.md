@@ -16,12 +16,14 @@ An assertion is a logical expression that evaluates to a boolean value. The expe
 
 1. Flow Output
 Flow output is the output generated for the given flow for the given set of inputs. Flow output can have one or more assertions. To add assertions to the flow output the output must be defined. Then only you can see the assertions options in flow output. 
-![Flow Output](../../../../import-screenshots/VSCode/flowoutput.png)
+
+![Flow Output](../../../import-screenshots/VSCode/flowoutput.png)
 
 
 2. Assert on Error
 You can add assertions to the flow output to verify that the flow produces the correct data by comparing the actual output against predefined assertions. Assert on Error adds an assertion for the flow designed with error. To make the assetion pass without using error handler we can add flow output assertion to the flow output. 
-![Assert on Error ](../../../import-screenshots/VSCode/assertonerror.png)
+
+![Assert on Error](../../../import-screenshots/VSCode/assertonerror.png)
 
 3. Assert On Output
 To compare the actual vs expected output, you can add multiple assertions on an activity, flow output, or error handler. We can use functions while adding assertions. This option is only visible for the activities having output.
@@ -98,23 +100,3 @@ After clicking on run test button a test result file will generate under test-re
 
 4. Mock Outputs
 ![Sample Response](../../../../import-screenshots/VSCode/mockoutput)
-
-
-
-## Contributing
-If you want to build your own activities for Flogo please read the docs here.
-
-If you want to showcase your project, check out [tci-awesome](https://github.com/TIBCOSoftware/tci-awesome)
-
-
-## Feedback
-If you have feedback, don't hesitate to talk to us!
-
-* Submit feature requests on our [TCI Ideas](https://ideas.tibco.com/?project=TCI) or [FE Ideas](https://ideas.tibco.com/?project=FE) portal
-* Ask questions on the [TIBCO Community](https://community.tibco.com/answers/product/344006)
-
-## Help
-Please visit our [TIBCO Cloud<sup>&trade;</sup> Integration documentation](https://integration.cloud.tibco.com/docs/) and TIBCO Flogo® Enterprise documentation on [docs.tibco.com](https://docs.tibco.com/) for additional information.
-
-## License
-This TCI Flogo SDK and Samples project is licensed under a BSD-type license. See [license.txt](license.txt).
