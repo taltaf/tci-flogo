@@ -41,13 +41,11 @@ You can use the mock data for the activities that have an output. Expressions an
 
 In unit testing, you can either use assertions or mock data to test the activities.
 
-1. Mock Error
-Use mock exceptions for an activity to find out whether the exception handling is being done correctly or not. This option is only visible for the activities having output. Add mock error to pass the dummy error message to make the assertion pass.
+1. Mock Error - Use mock exceptions for an activity to find out whether the exception handling is being done correctly or not. This option is only visible for the activities having output. Add mock error to pass the dummy error message to make the assertion pass.
 
 ![Mock Error](../import-screenshots/VSCode/mockerror.png)
 
-2. Mock Outputs
-You can use the mock data for the activities that have an output. Data mocks are fake data that is used to simulate real data in a controlled environment. Add mock output to pass dummy outputs to make the assertion pass.
+2. Mock Outputs - You can use the mock data for the activities that have an output. Data mocks are fake data that is used to simulate real data in a controlled environment. Add mock output to pass dummy outputs to make the assertion pass.
 
 ![Mock Output](../import-screenshots/VSCode/mockoutput.png)
 
@@ -76,11 +74,11 @@ If the invoke rest service is down or inaccessible and we want to mock the data 
 
 1. Click on the UnitTestingSample.flogotest
 
-![.flogotest file](../import-screenshots/VSCode/Testing.png)
+![.flogotest file](../import-screenshots/VSCode/testing.png)
 
 2. Click on the testing icon in VSCode on the left side. Expand the app name and the test suite and click on the run test button to see the test results.
 
-![Testing icon](../import-screenshots/VSCode/Testing1.png)
+![Testing icon](../import-screenshots/VSCode/testing1.png)
 
 
 
@@ -91,19 +89,19 @@ After clicking on run test button, a test result file will generate under test-r
 
 1. Assert on Error
 
-![Sample Response](../import-screenshots/VSCode/assertonerroroutput)
+![Sample Response](../import-screenshots/VSCode/assertonerroroutput.png)
 
 2. Assert On Output
 
-![Sample Response](../import-screenshots/VSCode/assertonerroroutput)
+![Sample Response](../import-screenshots/VSCode/assertonerroroutput.png)
 
 3. Mock Error
 
-![Sample Response](../import-screenshots/VSCode/mockerror)
+![Sample Response](../import-screenshots/VSCode/mockerror.png)
 
 4. Mock Outputs
 
-![Sample Response](../import-screenshots/VSCode/mockoutput)
+![Sample Response](../import-screenshots/VSCode/mockoutput.png)
 
 
 ## Notes & Conclusion
