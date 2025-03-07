@@ -54,10 +54,13 @@ For a particular activity that has a flow input configured in the actual process
 
 ## Import the sample
 
-The sample app gets the zip code of the customer for the given customer id. Added the assertions and mock for this sample app in which assert on error, assert on output, mock error and mock output.
-In this if we pass the correct id in the flow input that would direct to the right url passed in invoke rest service, the test case would pass and correct zip code will be displayed and this we can assert using assert an output.
-If we pass the id which doesn't exist in the flow input i:e that wouldn't direct to the right url passed in invoke rest service, the test case would fail as it would not get the zip code of the customer and this we can assert using assert on error, displaying the error message "Invalid path '.address.zipcode'. path not found." configured in the assertion.
-If the invoke rest service is down or inaccessible and we want to mock the data and get the output, using mocking of data invoke rest will not be called, but we will still get the desired result from the data we have mocked.
+The sample app gets the zip code of the customer for the given customer id. Added the assertions and mock for this sample app covering assert on error, assert on output, mock error and mock output.
+
+In the given applocation if we pass the correct id in the flow input that would redirect to the correct url passed in invoke rest service, the test case would pass and correct zip code will be displayed and this we can assert using assert an output.
+
+If we pass the id in the flow input which doesn't exist i:e that wouldn't redirect to the right url passed in invoke rest service, the test case would fail as it would not get the zip code of the customer and this we can assert using assert on error, displaying the error message "Invalid path '.address.zipcode'. path not found." configured in the assertion.
+
+If the invoke rest service is down or inaccessible and we want to mock the data and get the output, using mocking of data though the invoke rest will not be called, but we will still get the desired result from the data we have mocked.
 
 
 
@@ -105,4 +108,8 @@ After clicking on run test button, a test result file will generate under test-r
 
 
 ## Notes & Conclusion
+
+1. One can run unit testing at any phase of the development cycle to verify whether activities in the process are working as expected.
+
+2. Using testing processes in the development stage (before you push the application to the production environment), helps detect errors and identify issues at an early stage.
 
