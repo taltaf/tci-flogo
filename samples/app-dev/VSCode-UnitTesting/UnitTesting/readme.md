@@ -16,7 +16,7 @@ An assertion is a logical expression that evaluates to a boolean value. The expe
 
 1. Flow output - Flow output is the output generated for the given flow for the given set of inputs. Flow output can have one or more assertions. To add assertions to the flow output, the output must be defined. Then only you can see the assertions options in flow output. 
 
-![Flow Output](../../../import-screenshots/VSCode/UnitTesting-Sample/flowoutput.png)
+![Flow Output](../../../../import-screenshots/VSCode/UnitTesting-Sample/flowoutput.png)
 
 
 2. Assert on Error - You can add assertions to the flow output to verify that the flow produces the correct data by comparing the actual output against predefined assertions. Assert on Error adds an assertion for the flow designed with error. To make the assertion pass without using error handler we can add flow output assertion to the flow output. 
