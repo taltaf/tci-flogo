@@ -3,7 +3,7 @@
 
 ## Description
 
-With unit testing, you can monitor the health of your application and detect errors in individual flows or Activity levels. After you design a flow, you can test it by playing it once.You provide the input to the flow in playing a test case once. It executes the flow on demand without using a trigger. Each activity executes independently and displays its logs.It can help detect errors in the flow upfront without actually building the app
+With unit testing, you can monitor the health of your application and detect errors in individual flows or Activity levels. After you design a flow, you can test it by playing it once.You provide the input to the flow in playing a test case once. It executes the flow on demand without using a trigger. Each activity executes independently and displays its logs.It can help detect errors in the flow upfront without actually building the app.
 
 ## Prerequisites
 
@@ -12,9 +12,9 @@ With unit testing, you can monitor the health of your application and detect err
 
 ## Import the sample
 
-1. Download the PlayTestcase.flogo and PlayTestcase.flogotest file.'
+1. Download the PlayTestcase.flogo and PlayTestcase.flogotest file.
 
-2. Put these files in VSCode workspace
+2. Put these files in VSCode workspace.
 
 ![Unit Testing files in VSCode workspace](../../import-screenshots/VSCode/PlayTC-UT/import.png)
 
@@ -26,17 +26,27 @@ With unit testing, you can monitor the health of your application and detect err
 
 ![.flogotest file](../../import-screenshots/VSCode/PlayTC-UT/flogotestfile.png)
 
-2. Once you click on the flow inside the .flogotest file , the testcase created will show up.
+2. Once you click on the flow inside the .flogotest file , the testcases created will show up.
 
 ![Flogotest Flow](../../import-screenshots/VSCode/PlayTC-UT/flogotestflow.png)
 
-3. To run a test case, click the Play Testcase icon on the .flogotest file.
+3. To run a test case, click on the Play Testcase icon in the .flogotest file.
 
 ![Play Testcase Icon](../../import-screenshots/VSCode/PlayTC-UT/playtestcaseicon.png)
 
 4. View the execution logs of the flow in the terminal. The execution path is highlighted in blue and other activities appear grayed out. You see a new or updated test results file with additional input, output, or error data captured during activity execution.
+ 
+![Execution Result](../../import-screenshots/VSCode/PlayTC-UT/executionresult.png)
 
 ![Excecution lines](../../import-screenshots/VSCode/PlayTC-UT/excecutionlines.png)
+
+![Result ](../../import-screenshots/VSCode/PlayTC-UT/1.png)
+
+![Result ](../../import-screenshots/VSCode/PlayTC-UT/2.png)
+
+![Result ](../../import-screenshots/VSCode/PlayTC-UT/3.png)
+
+![Result ](../../import-screenshots/VSCode/PlayTC-UT/4.png)
 
 
 5. Click the executed tasks to see the inputs, outputs, or errors of the activity in read-only mode. If an activity is executed and does not have any configuration or output, you cannot click it after execution.
@@ -55,5 +65,5 @@ With unit testing, you can monitor the health of your application and detect err
 
 4. You must stop the testing mode to configure the test case.
 
-5. When a test is running, the Play Testcase icon changes to the Stol Testcase icon. You must stop an ongoing test case to run a different one.
+5. When a test is running, the Play Testcase icon changes to the Stop Testcase icon. You must stop an ongoing test case to run a different one.
 
