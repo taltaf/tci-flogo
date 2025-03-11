@@ -21,11 +21,11 @@ An assertion is a logical expression that evaluates to a boolean value. The expe
 
 2. Assert on Error - You can add assertions to the flow output to verify that the flow produces the correct data by comparing the actual output against predefined assertions. Assert on Error adds an assertion for the flow designed with error. To make the assertion pass without using error handler we can add flow output assertion to the flow output. 
 
-![Assert on Error](../../import-screenshots/VSCode/UnitTesting-Sample/assertonerror.png)
+![Assert on Error](../../import-screenshots/VSCode-UT/UnitTesting-Sample/assertonerror.png)
 
 3. Assert On Output - To compare the actual vs. expected output, you can add multiple assertions on an activity, flow output, or error handler. We can use functions while adding assertions. This option is only visible for the activities having output.
 
-![Assert on Output](../../import-screenshots/VSCode/UnitTesting-Sample/assertonoutput.png)
+![Assert on Output](../../import-screenshots/VSCode-UT/UnitTesting-Sample/assertonoutput.png)
 
 ## Other Modes
 
@@ -43,11 +43,11 @@ In unit testing, you can either use assertions or mock data to test the activiti
 
 1. Mock Error - Use mock exceptions for an activity to find out whether the exception handling is being done correctly or not. This option is only visible for the activities having output. Add mock error to pass the dummy error message to make the assertion pass.
 
-![Mock Error](../../import-screenshots/VSCode/UnitTesting-Sample/mockerror.png)
+![Mock Error](../../import-screenshots/VSCode-UT/UnitTesting-Sample/mockerror.png)
 
 2. Mock Outputs - You can use the mock data for the activities that have an output. Data mocks are fake data that is used to simulate real data in a controlled environment. Add mock output to pass dummy outputs to make the assertion pass.
 
-![Mock Output](../../import-screenshots/VSCode/UnitTesting-Sample/mockoutput.png)
+![Mock Output](../../import-screenshots/VSCode-UT/UnitTesting-Sample/mockoutput.png)
 
 ## Defining Flow Input
 For a particular activity that has a flow input configured in the actual process, you must assign the flow input parameters before you run a test case. You can add separate test cases for each flow input.
@@ -69,7 +69,7 @@ If the invoke rest service is down or inaccessible and we want to mock the data 
 
 2. Put these files in VSCode workspace
 
-![Unit Testing files in VSCode workspace](../../import-screenshots/VSCode/UnitTesting-Sample/import.png)
+![Unit Testing files in VSCode workspace](../../import-screenshots/VSCode-UT/UnitTesting-Sample/import.png)
 
 
 
@@ -77,11 +77,11 @@ If the invoke rest service is down or inaccessible and we want to mock the data 
 
 1. Click on the UnitTesting.flogotest
 
-![.flogotest file](../../import-screenshots/VSCode/UnitTesting-Sample/testing.png)
+![.flogotest file](../../import-screenshots/VSCode-UT/UnitTesting-Sample/testing.png)
 
 2. Click on the testing icon in VSCode on the left side. Expand the app name and the test suite and click on the run test button to see the test results.
 
-![Testing icon](../../import-screenshots/VSCode/UnitTesting-Sample/testing1.png)
+![Testing icon](../../import-screenshots/VSCode-UT/UnitTesting-Sample/testing1.png)
 
 
 
@@ -92,19 +92,19 @@ After clicking on run test button, a test result file will generate under test-r
 
 1. Assert on Error
 
-![Sample Response](../../import-screenshots/VSCode/UnitTesting-Sample/assertonerrorresult.png)
+![Sample Response](../../import-screenshots/VSCode-UT/UnitTesting-Sample/assertonerrorresult.png)
 
 2. Assert On Output
 
-![Sample Response](../../import-screenshots/VSCode/UnitTesting-Sample/assertonoutputresult.png)
+![Sample Response](../../import-screenshots/VSCode-UT/UnitTesting-Sample/assertonoutputresult.png)
 
 3. Mock Error
 
-![Sample Response](../../import-screenshots/VSCode/UnitTesting-Sample/mockerrorresult.png)
+![Sample Response](../../import-screenshots/VSCode-UT/UnitTesting-Sample/mockerrorresult.png)
 
 4. Mock Outputs
 
-![Sample Response](../../import-screenshots/VSCode/UnitTesting-Sample/mockoutputresult.png)
+![Sample Response](../../import-screenshots/VSCode-UT/UnitTesting-Sample/mockoutputresult.png)
 
 
 ## Notes & Conclusion

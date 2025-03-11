@@ -15,7 +15,7 @@ With Unit Testing, you can monitor the health of your application and detect err
 
 2. Put these files in VSCode workspace.
 
-![Unit Testing files in VSCode workspace](../../import-screenshots/VSCode/PlayTC-UT/import.png)
+![Unit Testing files in VSCode workspace](../../import-screenshots/VSCode-UT/PlayTC-UT/import.png)
 
 
 
@@ -23,34 +23,34 @@ With Unit Testing, you can monitor the health of your application and detect err
 
 1. Click on the PlayTestcase.flogotest file.
 
-![.flogotest file](../../import-screenshots/VSCode/PlayTC-UT/flogotestfile.png)
+![.flogotest file](../../import-screenshots/VSCode-UT/PlayTC-UT/flogotestfile.png)
 
 2. Once you click on the flow inside the .flogotest file , the testcases created will show up.
 
-![Flogotest Flow](../../import-screenshots/VSCode/PlayTC-UT/flogotestflow.png)
+![Flogotest Flow](../../import-screenshots/VSCode-UT/PlayTC-UT/flogotestflow.png)
 
 3. To run a test case, click on the Play Testcase icon in the .flogotest file.
 
-![Play Testcase Icon](../../import-screenshots/VSCode/PlayTC-UT/playtestcaseicon.png)
+![Play Testcase Icon](../../import-screenshots/VSCode-UT/PlayTC-UT/playtestcaseicon.png)
 
 4. View the execution logs of the flow in the terminal. The execution path is highlighted in blue and other activities appear grayed out. You see a new or updated test results file with additional input, output, or error data captured during activity execution.
  
-![Execution Result](../../import-screenshots/VSCode/PlayTC-UT/executionresult.png)
+![Execution Result](../../import-screenshots/VSCode-UT/PlayTC-UT/executionresult.png)
 
-![Excecution lines](../../import-screenshots/VSCode/PlayTC-UT/excecutionlines.png)
+![Excecution lines](../../import-screenshots/VSCode-UT/PlayTC-UT/excecutionlines.png)
 
-![Result ](../../import-screenshots/VSCode/PlayTC-UT/1.png)
+![Result ](../../import-screenshots/VSCode-UT/PlayTC-UT/1.png)
 
-![Result ](../../import-screenshots/VSCode/PlayTC-UT/2.png)
+![Result ](../../import-screenshots/VSCode-UT/PlayTC-UT/2.png)
 
-![Result ](../../import-screenshots/VSCode/PlayTC-UT/3.png)
+![Result ](../../import-screenshots/VSCode-UT/PlayTC-UT/3.png)
 
-![Result ](../../import-screenshots/VSCode/PlayTC-UT/4.png)
+![Result ](../../import-screenshots/VSCode-UT/PlayTC-UT/4.png)
 
 
 5. Click the executed tasks to see the inputs, outputs, or errors of the activity in read-only mode. If an activity is executed and does not have any configuration or output, you cannot click it after execution.
 
-![Execution Output ](../../import-screenshots/VSCode/PlayTC-UT/executionoutput.png)
+![Execution Output ](../../import-screenshots/VSCode-UT/PlayTC-UT/executionoutput.png)
 
 
 
