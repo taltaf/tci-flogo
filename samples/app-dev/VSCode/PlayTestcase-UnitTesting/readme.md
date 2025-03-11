@@ -1,9 +1,8 @@
-# Unit Testing
-
+# Unit Testing - Playing a Test Case Once
 
 ## Description
 
-With unit testing, you can monitor the health of your application and detect errors in individual flows or Activity levels. After you design a flow, you can test it by playing it once.You provide the input to the flow in playing a test case once. It executes the flow on demand without using a trigger. Each activity executes independently and displays its logs.It can help detect errors in the flow upfront without actually building the app.
+With Unit Testing, you can monitor the health of your application and detect errors in individual flows or activity levels. After you design a flow, you can test it by playing it once.You provide the input to the flow in playing a test case once. It executes the flow on demand without using a trigger. Each activity executes independently and displays its logs. It can help detect errors in the flow upfront without actually building the app.
 
 ## Prerequisites
 
