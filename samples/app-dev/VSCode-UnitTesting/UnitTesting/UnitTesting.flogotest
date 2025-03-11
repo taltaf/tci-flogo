@@ -68,7 +68,7 @@
       "description": "If the invokde rest service is down or inaccessabla and we want to mock the data and get the output, using mocking of data invoke rest will not be called, but we will still get the desired result from the data we have mocked.",
       "flowInputs": {
         "pathParams": {
-          "id": "1687908"
+          "id": "1"
         }
       },
       "flowOutputs": {
@@ -117,7 +117,8 @@
               "address": {
                 "zipcode": "190012"
               }
-            }
+            },
+            "statusCode": 200
           }
         },
         "Mapper": {

@@ -389,7 +389,7 @@
                 "serviceName": "",
                 "resourcePath": "",
                 "Method": "GET",
-                "Uri": "https://dummyutl.typicode.com/users/{id}",
+                "Uri": "https://dummyurl.typicode.com/users/{id}",
                 "requestType": "application/json",
                 "Use certificate for verification": false,
                 "mutualAuth": false,
