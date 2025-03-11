@@ -56,7 +56,7 @@ For a particular activity that has a flow input configured in the actual process
 
 The sample app gets the zip code of the customer for the given customer id. Added the assertions and mock for this sample app covering assert on error, assert on output, mock error and mock output.
 
-In the given applocation if we pass the correct id in the flow input that would redirect to the correct url passed in invoke rest service, the test case would pass and correct zip code will be displayed and this we can assert using assert an output.
+In the given application if we pass the correct id in the flow input that would redirect to the correct url passed in invoke rest service, the test case would pass and correct zip code will be displayed and this we can assert using assert an output.
 
 If we pass the id in the flow input which doesn't exist i:e that wouldn't redirect to the right url passed in invoke rest service, the test case would fail as it would not get the zip code of the customer and this we can assert using assert on error, displaying the error message "Invalid path '.address.zipcode'. path not found." configured in the assertion.
 
@@ -65,7 +65,7 @@ If the invoke rest service is down or inaccessible and we want to mock the data 
 
 
 
-1. Download the UnitTestingSample.flogo and UnitTestingSample.flogotest file.'
+1. Download the UnitTesting.flogo and UnitTesting.flogotest file.
 
 2. Put these files in VSCode workspace
 
@@ -75,7 +75,7 @@ If the invoke rest service is down or inaccessible and we want to mock the data 
 
 ### Run the application
 
-1. Click on the UnitTestingSample.flogotest
+1. Click on the UnitTesting.flogotest
 
 ![.flogotest file](../../import-screenshots/VSCode/UnitTesting-Sample/testing.png)
 

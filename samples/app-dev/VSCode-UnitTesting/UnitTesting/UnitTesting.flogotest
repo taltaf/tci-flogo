@@ -7,8 +7,15 @@
       "tests": [
         "GetZipcode:AssertOnError",
         "GetZipcode:AssertOnOutput",
-        "GetZipcode:AssertOnOutputWithMockOutput",
         "GetZipcode:AssertOnErrorWithMockError"
+      ]
+    },
+    "AssertonOutputWithMockOutput": {
+      "id": "AssertonOutputWithMockOutput",
+      "name": "AssertonOutputWithMockOutput",
+      "disabled": false,
+      "tests": [
+        "GetZipcode-With-DummyURL:AssertOnOutputWithMockOutput"
       ]
     }
   },
@@ -27,8 +34,8 @@
       "flowOutputs": {
         "type": "ASSERT_ON_ERR",
         "assertions": {
-          "Assertion1": {
-            "name": "Assertion1",
+          "UT-FlowOutputAssertion": {
+            "name": "UT-FlowOutputAssertion",
             "valueAssertion": "string.contains($error.message,\"Invalid path '.address.zipcode'. path not found.\")"
           }
         }
@@ -47,43 +54,9 @@
       "flowOutputs": {
         "type": "ASSERT_ON_OP",
         "assertions": {
-          "Assertion1": {
-            "name": "Assertion1",
+          "UT-FlowOutputAssertion-AssertOnOutput": {
+            "name": "UT-FlowOutputAssertion-AssertOnOutput",
             "valueAssertion": "$.data.zipcode == \"92998-3874\""
-          }
-        }
-      }
-    },
-    "GetZipcode:AssertOnOutputWithMockOutput": {
-      "name": "AssertOnOutputWithMockOutput",
-      "flowId": "flow:GetZipcode",
-      "flowName": "GetZipcode",
-      "description": "If the invokde rest service is down or inaccessabla and we want to mock the data and get the output, using mocking of data invoke rest will not be called, but we will still get the desired result from the data we have mocked.",
-      "flowInputs": {
-        "pathParams": {
-          "id": "1"
-        }
-      },
-      "flowOutputs": {
-        "type": "ASSERT_ON_OP",
-        "assertions": {
-          "Assertion1": {
-            "name": "Assertion1",
-            "valueAssertion": "$.data.zipcode == \"92998-3874\""
-          }
-        }
-      },
-      "activities": {
-        "InvokeRESTService": {
-          "type": "MOCK_ON_OP",
-          "mock": {
-            "statusCode": 200,
-            "responseBody": {
-              "id": 1,
-              "address": {
-                "zipcode": "92998-3874"
-              }
-            }
           }
         }
       }
@@ -95,7 +68,7 @@
       "description": "If the invokde rest service is down or inaccessabla and we want to mock the data and get the output, using mocking of data invoke rest will not be called, but we will still get the desired result from the data we have mocked.",
       "flowInputs": {
         "pathParams": {
-          "id": "100"
+          "id": "1687908"
         }
       },
       "flowOutputs": {
@@ -112,6 +85,48 @@
           "type": "MOCK_ON_ERR",
           "mock": {
             "message": "Invalid path '.address.zipcode'. path not found."
+          }
+        }
+      }
+    },
+    "GetZipcode-With-DummyURL:AssertOnOutputWithMockOutput": {
+      "name": "AssertOnOutputWithMockOutput",
+      "flowId": "flow:GetZipcode-With-DummyURL",
+      "flowName": "GetZipcode-With-DummyURL",
+      "description": "If the invokde rest service is down or inaccessabla and we want to mock the data and get the output, using mocking of data invoke rest will not be called, but we will still get the desired result from the data we have mocked.",
+      "flowInputs": {
+        "pathParams": {
+          "id": "100"
+        }
+      },
+      "flowOutputs": {
+        "type": "ASSERT_ON_OP",
+        "assertions": {
+          "UT-FlowOuput-Assertion": {
+            "name": "UT-FlowOuput-Assertion",
+            "valueAssertion": "$.data.zipcode == \"190012\""
+          }
+        }
+      },
+      "activities": {
+        "InvokeRESTService": {
+          "type": "MOCK_ON_OP",
+          "mock": {
+            "responseBody": {
+              "id": 124354,
+              "address": {
+                "zipcode": "190012"
+              }
+            }
+          }
+        },
+        "Mapper": {
+          "type": "ASSERT_ON_OP",
+          "assertions": {
+            "UT-Mapper-Assertion": {
+              "name": "UT-Mapper-Assertion",
+              "valueAssertion": "$activity[Mapper].output.zipcode == \"190012\""
+            }
           }
         }
       }
