@@ -12,7 +12,7 @@ With unit testing, you can monitor the health of your application and detect err
 
 ## Import the sample
 
-1. Download the UnitTestingSample.flogo and UnitTestingSample.flogotest file.'
+1. Download the PlayTestcase.flogo and PlayTestcase.flogotest file.'
 
 2. Put these files in VSCode workspace
 
@@ -24,7 +24,7 @@ With unit testing, you can monitor the health of your application and detect err
 
 1. Click on the PlayTestcase.flogotest file.
 
-![.flogotest file](../../import-screenshots/VSCode/PlayTC-UT/flogotest.png)
+![.flogotest file](../../import-screenshots/VSCode/PlayTC-UT/flogotestfile.png)
 
 2. Once you click on the flow inside the .flogotest file , the testcase created will show up.
 
